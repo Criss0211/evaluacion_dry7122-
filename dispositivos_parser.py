@@ -2,6 +2,7 @@ import json
 
 data = []
 
+
 with open('dispositivos.json','r') as file:
     dispositivos_data = json.load(file)
 
