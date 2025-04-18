@@ -1,7 +1,6 @@
 try:
 
     puerto = int(input("Introduce el número de puerto: "))
-
     if 0 <= puerto <= 1023:
         print(f"El puerto {puerto} es un Puerto bien conocido.")
     elif 1024 <= puerto <= 49151:
