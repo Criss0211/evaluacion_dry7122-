@@ -12,4 +12,4 @@ try:
         print("El número ingresado no corresponde a un puerto válido (debe estar entre 0 y 65535).")
 
 except ValueError:
-    print("Entrada inválida. Debe ingresar un número entero.") 
+    print("Entrada inválida. Debe ingresar un número entero.")
